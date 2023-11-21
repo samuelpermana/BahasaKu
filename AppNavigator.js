@@ -7,6 +7,7 @@ import Main_Screen from './pages/MainScreen';
 import AboutPage from './pages/AboutPage';
 import Profil from './pages/ProfilScreen';
 import DetailScreen from './pages/detailScreen';
+import ListWilayah from './pages/ListWilayah';
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -15,6 +16,7 @@ const MainStack = () => (
   <Stack.Navigator>
     <Stack.Screen name="Daftar Bahasa" component={Main_Screen} />
     <Stack.Screen name="DetailScreen" component={DetailScreen} />
+    <Stack.Screen name="ListWilayah" component={ListWilayah} />
   </Stack.Navigator>
 );
 
